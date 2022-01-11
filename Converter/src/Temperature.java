@@ -1,18 +1,19 @@
-
-public class Temperature {
-	
-	private double celsius;
+public class Temperature extends Converter{
 	private final double fahrenheit = 33.8;
 	
-	Temperature(double celsius){
-		
-		this.celsius = celsius;
-		System.out.println("1 degree Celsius -> " + fahrenheit + " fahrenheit");
-	}
-	
-	public double showTemperature(double celsius){
-		
-		return (celsius * 1.8) + 32;
+	Temperature(){
+		System.out.println(this);
 	}
 
+	@Override
+	public double count(double value) {
+		return (value * 1.8) + 32;
+	}
+
+	@Override
+	public String toString() {
+		return "Temperature{" +
+				"1 degree celsius = " + fahrenheit + " fahrenheit" +
+				'}';
+	}
 }

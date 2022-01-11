@@ -1,16 +1,20 @@
-
-public class Weight {
-	
-	private double kilo;
+public class Weight extends Converter{
 	private final double pound = 2.2;
 	
-	Weight(double kilo){
-		this.kilo = kilo;
-		System.out.println("1 kilo -> " + pound + "pound");
+	Weight(){
+
+		System.out.println("1 kilo = " + pound + "pound");
 	}
-	
-	public double showWeight(double kilo){
-		
-		return kilo * pound;
+
+	@Override
+	public double count(double value) {
+		return value + this.pound;
+	}
+
+	@Override
+	public String toString() {
+		return "Weight{" +
+				"1 kilo = " + pound + "pound" +
+				'}';
 	}
 }

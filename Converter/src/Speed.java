@@ -1,17 +1,19 @@
-
-public class Speed {
-
-	private double km;
+public class Speed extends Converter{
 	private final double mile = 0.62;
-	
-	Speed(double km){
-		
-		this.km = km;
-		System.out.println("1 km/h -> " + mile + " mile");
+
+	Speed(){
+		System.out.println(this);
 	}
-	
-	public double showSpeed(double km){
-		
-		return km * mile;
+
+	@Override
+	public double count(double value) {
+		return value * this.mile;
+	}
+
+	@Override
+	public String toString() {
+		return "Speed{" +
+				"1 km/h = " + mile + " miles" +
+				'}';
 	}
 }
