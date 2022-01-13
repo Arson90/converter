@@ -14,6 +14,8 @@ This is a simple command line converter.
 ## Intruducing
 This simple project was created to the need for exercies from my study and it was written in Java. This is a easy way how we can create simple command line program.
 
+![example](https://user-images.githubusercontent.com/37801354/149361518-b35c1f26-143f-470e-866e-919a591e8e57.jpg)
+
 ## Prerequisite
 * Install IDE: IntelliJ IDEA (if you use Eclipse go to [Useful links](#useful-links) there is link how to export an IntelliJ IDEA project to Eclipse.
 * Install JDK (Java Development Kit)
