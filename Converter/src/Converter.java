@@ -30,7 +30,7 @@ public abstract class Converter {
 					System.out.println("Give a value which you want to convert from Bar to Psi: ");
 					valueToConvert = scanner.nextDouble();
 					resultAfterConverting = resultPressure.count(valueToConvert);
-					System.out.println(valueToConvert + " bar -> " + resultAfterConverting + " psi");
+					System.out.printf("%.2f bar -> %.2f psi\n", valueToConvert, resultAfterConverting);
 					break;
 				}
 				case 2: {
@@ -38,7 +38,7 @@ public abstract class Converter {
 					System.out.println("Give a value which you want to convert from Kilo to Pound: ");
 					valueToConvert = scanner.nextDouble();
 					resultAfterConverting = resultWeight.count(valueToConvert);
-					System.out.println(valueToConvert + " kilo -> " + resultAfterConverting + " pound");
+					System.out.printf("%.2f kilo -> %.2f pound\n", valueToConvert, resultAfterConverting);
 					break;
 				}
 				case 3: {
@@ -46,23 +46,23 @@ public abstract class Converter {
 					System.out.println("Give a value which you want to convert from Centimeters to foot: ");
 					valueToConvert = scanner.nextDouble();
 					resultAfterConverting = length.count(valueToConvert);
-					System.out.println(valueToConvert + " centimeters -> " + resultAfterConverting + " foot");
+					System.out.printf("%.2f centimeters -> %.2f foot\n", valueToConvert, resultAfterConverting);
 					break;
 				}
 				case 4: {
-					Temperature resultTemperatur = new Temperature();
+					Temperature temperatur = new Temperature();
 					System.out.println("Give a value which you want to convert from Celsius to Fahrenheit: ");
 					valueToConvert = scanner.nextDouble();
-					resultAfterConverting = resultTemperatur.count(valueToConvert);
-					System.out.println(valueToConvert + " celsius -> " + resultAfterConverting + " fahrenheit");
+					resultAfterConverting = temperatur.count(valueToConvert);
+					System.out.printf("%.2f celsius -> %.2f fahrenheit\n", valueToConvert, resultAfterConverting);
 					break;
 				}
 				case 5: {
-					Speed resultSpeed = new Speed();
+					Speed speed = new Speed();
 					System.out.println("Give a value which you want to convert from Kilometers to Miles: ");
 					valueToConvert = scanner.nextDouble();
-					resultAfterConverting = resultSpeed.count(valueToConvert);
-					System.out.println(valueToConvert + " km/h -> " + resultAfterConverting + " miles");
+					resultAfterConverting = speed.count(valueToConvert);
+					System.out.printf("%.2f km/h -> %.2f miles\n", valueToConvert, resultAfterConverting);
 					break;
 				}
 				default: {

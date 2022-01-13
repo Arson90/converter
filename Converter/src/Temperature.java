@@ -13,7 +13,7 @@ public class Temperature extends Converter{
 	@Override
 	public String toString() {
 		return "Temperature{" +
-				"1 degree celsius = " + fahrenheit + " fahrenheit" +
+				"1 degree celsius = " + this.fahrenheit + " fahrenheit" +
 				'}';
 	}
 }

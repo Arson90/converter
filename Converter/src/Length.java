@@ -13,7 +13,7 @@ public class Length extends Converter{
 	@Override
 	public String toString() {
 		return "Length{" +
-				"1 centimeter = " + this.foot + "foot"  +
+				"1 centimeter = " + this.foot + " foot"  +
 				'}';
 	}
 }

@@ -13,7 +13,7 @@ public class Pressure extends Converter{
 	@Override
 	public String toString() {
 		return "Pressure{" +
-				"1 bar = " + psi + " psi" +
+				"1 bar = " + this.psi + " psi" +
 				'}';
 	}
 }

@@ -2,8 +2,7 @@ public class Weight extends Converter{
 	private final double pound = 2.2;
 	
 	Weight(){
-
-		System.out.println("1 kilo = " + pound + "pound");
+		System.out.println(this);
 	}
 
 	@Override
@@ -14,7 +13,7 @@ public class Weight extends Converter{
 	@Override
 	public String toString() {
 		return "Weight{" +
-				"1 kilo = " + pound + "pound" +
+				"1 kilo = " + this.pound + " pound" +
 				'}';
 	}
 }

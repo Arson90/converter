@@ -13,7 +13,7 @@ public class Speed extends Converter{
 	@Override
 	public String toString() {
 		return "Speed{" +
-				"1 km/h = " + mile + " miles" +
+				"1 km/h = " + this.mile + " miles" +
 				'}';
 	}
 }
