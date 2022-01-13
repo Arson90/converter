@@ -4,14 +4,14 @@
 This is a simple command line converter.
 
 ## Overview
-* [Intruducing](#intruducing)
+* [Introducing](#introducing)
 * [Prerequisite](#prerequisite)
 * [Installing Tools](#installing-tools)
 * [Running Examples](#running-examples)
 * [Class Diagram](#class-diagram)
 * [Useful links](#useful-links)
 
-## Intruducing
+## Introducing
 This simple project was created to the need for exercies from my study and it was written in Java. This is a easy way how we can create simple command line program.
 
 ![example](https://user-images.githubusercontent.com/37801354/149361518-b35c1f26-143f-470e-866e-919a591e8e57.jpg)
